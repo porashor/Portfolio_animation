@@ -9,6 +9,7 @@ module.exports = {
         dance: 'bounce 4s infinite',
         hug: 'bicik 4s infinite',
         gradient: 'gradient 15s ease infinite',
+        shad: 'BorderFras 3s ease infinite',
       },
       keyframes: {
         bounce: {
@@ -30,6 +31,13 @@ module.exports = {
           '50%': { 'background-position': '100% 50%' },
           '100%': { 'background-position': '0% 50%' },
         },
+        BorderFras: {
+          "0%": {"border-color" : "blue", "box-shadow" : "10px 10px 200px blue", transform: "translateY(0)"},
+          "25%": {"border-color" : "yellow", "box-shadow" : "10px 10px 200px yellow"},
+          "50%": {"border-color" : "orrange", "box-shadow" : "10px 10px 200px orrange",transform:"translateY(20px)"},
+          "75%": {"border-color" : "green", "box-shadow" : "10px 10px 200px green"},
+          "100%": {"border-color" : "red", "box-shadow" : "10px 10px 200px red", transform: "translateY(0)"},
+        }
       }
     },
   },

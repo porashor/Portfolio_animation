@@ -14,9 +14,8 @@ const Home = () => {
                 </div>
             </div>
             {/* image section  */}
-            <div className='flex items-center justify-center relative'>
-              <div className='h-[400px] aspect-square bg-yellow-800 rounded-full opacity-[0.3] absolute animate-hug'></div>
-              <div className='h-[200px] aspect-square bg-yellow-800 rounded-full border-4 border-blue-300 absolute animate-dance'></div>
+            <div className='flex items-center justify-center'>
+              <div className='h-[200px] aspect-square bg-yellow-800 rounded-full border-4 border-blue-300 absolute animate-shad'></div>
             </div>
         </div>
       </Container>
